@@ -108,7 +108,7 @@ public class Interval {
         if (isPripadaLiPocetna()) vrati += "[";
         else vrati += "(";
 
-        vrati+=getPocetna()+","+getKrajnja();
+        vrati += getPocetna() + "," + getKrajnja();
 
         if (isPripadaLiKrajnja()) vrati += "]";
         else vrati += ")";
@@ -124,8 +124,12 @@ public class Interval {
 
          */
 
+        Interval vrati = new Interval();
 
-        return null;
+        //if (getPocetna()<interval.pocetna && interval.pocetna<getKrajnja() && getKrajnja()<interval.krajnja)
+
+
+            return null;
     }
 
     public static Interval intersect(Interval i, Interval i2) {

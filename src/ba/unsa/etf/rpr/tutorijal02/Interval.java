@@ -117,4 +117,23 @@ public class Interval {
 
     }
 
+    public Interval intersect(Interval interval) {
+        /*
+        Interval i = new Interval(1.1, 2.5, true, false);
+        Interval i2 = new Interval(2.2, 2.6, true, true);
+
+         */
+
+
+        return null;
+    }
+
+    public static Interval intersect(Interval i, Interval i2) {
+        //ostao je jos intersect
+
+
+        return null;
+    }
+
+
 }
